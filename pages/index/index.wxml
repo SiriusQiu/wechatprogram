@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">欢迎来到神秘的107</view>
+    </view>
+    <view class="page__bd page__bd_spacing">
+        <view class="weui-flex">
+            <view class="weui-flex__item"><view class="placeholder">blog</view></view>
+        </view>
+        <view class="weui-flex">
+            <view><view>
+    <view>
+      <button bindtap="click" data-id='1'>树(一)</button>
+      <button bindtap="click" data-id='2'>泛型(一)</button>
+    </view>
+  </view></view>
+            <view class="weui-flex__item"><view><text>{{motto}}</text></view></view>
+        </view>
+    </view>
+</view>
